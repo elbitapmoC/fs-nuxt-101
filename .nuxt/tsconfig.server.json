@@ -1,0 +1,64 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
+    "paths": {
+      "#imports": [
+        "/Users/elbitapmoc/Desktop/dev/vue/fs-nuxt-101/.nuxt/types/nitro-imports"
+      ],
+      "#paths": [
+        "/Users/elbitapmoc/Desktop/dev/vue/fs-nuxt-101/node_modules/nuxt/dist/core/runtime/nitro/paths"
+      ],
+      "~": [
+        "/Users/elbitapmoc/Desktop/dev/vue/fs-nuxt-101"
+      ],
+      "~/*": [
+        "/Users/elbitapmoc/Desktop/dev/vue/fs-nuxt-101/*"
+      ],
+      "@": [
+        "/Users/elbitapmoc/Desktop/dev/vue/fs-nuxt-101"
+      ],
+      "@/*": [
+        "/Users/elbitapmoc/Desktop/dev/vue/fs-nuxt-101/*"
+      ],
+      "~~": [
+        "/Users/elbitapmoc/Desktop/dev/vue/fs-nuxt-101"
+      ],
+      "~~/*": [
+        "/Users/elbitapmoc/Desktop/dev/vue/fs-nuxt-101/*"
+      ],
+      "@@": [
+        "/Users/elbitapmoc/Desktop/dev/vue/fs-nuxt-101"
+      ],
+      "@@/*": [
+        "/Users/elbitapmoc/Desktop/dev/vue/fs-nuxt-101/*"
+      ],
+      "assets": [
+        "/Users/elbitapmoc/Desktop/dev/vue/fs-nuxt-101/assets"
+      ],
+      "assets/*": [
+        "/Users/elbitapmoc/Desktop/dev/vue/fs-nuxt-101/assets/*"
+      ],
+      "public": [
+        "/Users/elbitapmoc/Desktop/dev/vue/fs-nuxt-101/public"
+      ],
+      "public/*": [
+        "/Users/elbitapmoc/Desktop/dev/vue/fs-nuxt-101/public/*"
+      ]
+    }
+  },
+  "include": [
+    "/Users/elbitapmoc/Desktop/dev/vue/fs-nuxt-101/.nuxt/types/nitro-nuxt.d.ts",
+    "./types/nitro.d.ts",
+    "../**/*",
+    "../server/**/*"
+  ]
+}
